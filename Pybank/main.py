@@ -3,7 +3,7 @@ import os
 
 import csv
 
-budgetdata = os.path.join('..', 'Resources', 'budget_data.csv')
+budgetdata = os.path.join('budget_data.csv')
 
 with open(budgetdata) as budgetdata:
 
