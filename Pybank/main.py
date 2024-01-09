@@ -38,6 +38,9 @@ max_decrease = min(changes_in_profit_loss)
 max_increase_date = dates[changes_in_profit_loss.index(max_increase)]
 max_decrease_date = dates[changes_in_profit_loss.index(max_decrease)]
 
+
+output_file = "analysis.txt"
+with open(output_file, "w") as file:
 print("Financial Analysis")
 print(f"Total Months: {total_months}")
 print(f"Total: ${total_profit_loss}")
