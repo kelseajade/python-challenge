@@ -43,11 +43,10 @@ print(f"Greatest Decrease: {max_decrease_date} (${max_decrease})")
 #create output file and write analysis
 output_file = "analysis.txt"
 with open(output_file, "w") as file:
-output_file = "analysis.txt"
-with open(output_file, "w") as file:
-  file.write("Financial Analysis\n")
-  file.write(f"Total Months: {total_months}\n")
-  file.write(f"Total: ${total_profit_loss}\n")
-  file.write(f"Average Change: ${avgchange:.2f}\n")
-  file.write(f"Greatest Increase: {max_increase_date} (${max_increase})\n")
-  file.write(f"Greatest Decrease: {max_decrease_date} (${max_decrease})\n")
+    output_file = "analysis.txt"
+file.write("Financial Analysis\n")
+file.write(f"Total Months: {total_months}\n")
+file.write(f"Total: ${total_profit_loss}\n")
+file.write(f"Average Change: ${avgchange:.2f}\n")
+file.write(f"Greatest Increase: {max_increase_date} (${max_increase})\n")
+file.write(f"Greatest Decrease: {max_decrease_date} (${max_decrease})\n")
